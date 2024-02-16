@@ -2,14 +2,11 @@ import fortnitepy
 import json
 import os
 
-OPENAI_API_KEY='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'
+OPENAI_API_KEY='key'
 
 from openai import OpenAI
 aiclient = OpenAI(api_key=OPENAI_API_KEY)
 
-email = 'email@email.com'
-password = 'password1'
-filename = 'device_auths.json'
 
 
 
